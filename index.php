@@ -25,7 +25,9 @@ and open the template in the editor.
                             </th>
                             <th>Description
                             </th>
-			</tr>		
+			</tr>
+                </thead>
+                <tbody>
 	<?php
             if ($result) {
                 while ($row = $result->fetch_assoc()) {
